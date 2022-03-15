@@ -1,0 +1,27 @@
+header, nav, main, footer { display: block; }
+  /* don't forget to add at least 1 media query design, ya know, the tablet/phone safe view*/
+nav { font-weight: bold;
+      background-color: #E3E3E3;
+      float: right;
+      padding-right: 3em;
+      width: 150px;
+      height: 500px;
+      font-size: 25px;
+}
+
+nav ul {list-style-type: none;
+}
+
+nav a { text-decoration: none;
+        display: block;
+}
+nav a:link {color: #200b76;}
+nav a:visited { color: #79CAC5; }
+nav a:hover { color: #AA10E1; }
+
+footer {text-align: center;
+        font-style: italic;
+        font-size: 15px;
+        clear: both;
+        padding: 2em;
+      }
