@@ -1,11 +1,42 @@
 header, nav, main, footer { display: block; }
   /* don't forget to add at least 1 media query design, ya know, the tablet/phone safe view*/
+body {background-color: #79CAC5;
+      font-family: Helvetica, Arial, sans-serif;
+      margin: 0px;
+}
+
+header {background-color: #200b76;
+        background-image: url(Banner.png);
+        background-repeat: no-repeat;
+        height: 250px;
+}
+
+#banner{
+    margin: 0 auto;
+    height: 250px;
+    width: 960px;
+    /*courtesy Rohit416*/
+}
+
+#wrapper {background: #200b76;}
+
+header h1 {text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#webwrap {margin: 0 auto;
+          width: 80%;
+          min-width: 960px;
+          max-width: 1200px;
+          background-color: #FFFFFF;}
+
 nav { font-weight: bold;
       background-color: #E3E3E3;
       float: right;
       padding-right: 3em;
-      width: 150px;
-      height: 500px;
+      width: 175px;
+      height: 1300px;
       font-size: 25px;
 }
 
@@ -15,13 +46,46 @@ nav ul {list-style-type: none;
 nav a { text-decoration: none;
         display: block;
 }
+
 nav a:link {color: #200b76;}
 nav a:visited { color: #79CAC5; }
 nav a:hover { color: #AA10E1; }
+
+h1 {font-family: Helvetica, Arial, sans-serif;
+    color: #200b76;
+    padding-top: 10px;
+}
+hr {padding-left: 50px;
+    }
+
+p {font-family: Helvetica, Arial, sans-serif;
+   padding-left: 20px;
+}
+
+main {padding-left: 20px;}
+
+main ul {list-style-type: none;}
+
+main li {display: inline-block;
+         width: 225px;
+         padding-bottom: 10px;
+         margin: 10px;
+         background-color: #E3E3E3;
+         text-align: center;
+         font-family: Arial, sans-serif;
+         color: #200b76;
+         font-size: 1.25em;
+}
+main blockquote b {color: #200b76;}
+
+main blockquote {font-size: 1.25em;}
 
 footer {text-align: center;
         font-style: italic;
         font-size: 15px;
         clear: both;
         padding: 2em;
-      }
+        background-color: #200b76;
+        color: #FFFFFF;
+        height: 20%;
+}
